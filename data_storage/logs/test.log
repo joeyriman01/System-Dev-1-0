@@ -1,0 +1,115 @@
+2025-11-09 19:20:22.791 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 19:20:22.791 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 19:20:22.791 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 19:20:22.791 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 19:20:22.791 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 19:20:22.791 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 19:20:22.791 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 19:20:22.791 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 19:20:22.791 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 19:35:28.680 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 19:35:28.680 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 19:35:28.680 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 19:35:28.680 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 19:35:28.680 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 19:35:28.680 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 19:35:28.680 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 19:35:28.680 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 19:35:28.680 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 19:35:28.781 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 19:35:29.282 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.501s
+2025-11-09 19:36:32.659 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 19:36:32.659 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 19:36:32.659 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 19:36:32.659 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 19:36:32.659 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 19:36:32.659 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 19:36:32.659 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 19:36:32.659 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 19:36:32.659 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 19:36:32.751 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 19:36:33.210 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.459s
+2025-11-09 19:38:48.403 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 19:38:48.403 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 19:38:48.403 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 19:38:48.403 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 19:38:48.403 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 19:38:48.403 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 19:38:48.403 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 19:38:48.403 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 19:38:48.403 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 19:38:48.500 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 19:38:49.379 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.879s
+2025-11-09 19:38:49.659 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 20:34:35.449 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 20:34:35.449 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 20:34:35.449 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 20:34:35.449 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 20:34:35.449 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 20:34:35.449 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 20:34:35.449 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 20:34:35.449 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 20:34:35.449 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 20:34:35.631 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 20:34:37.171 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 1.540s
+2025-11-09 20:34:37.471 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 20:50:31.344 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 20:50:31.344 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 20:50:31.344 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 20:50:31.344 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 20:50:31.344 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 20:50:31.344 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 20:50:31.344 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 20:50:31.344 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 20:50:31.344 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 20:50:31.449 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 20:50:31.998 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.549s
+2025-11-09 20:50:32.299 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 20:51:06.860 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 20:51:06.860 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 20:51:06.860 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 20:51:06.860 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 20:51:06.860 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 20:51:06.860 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 20:51:06.860 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 20:51:06.860 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 20:51:06.860 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 20:51:06.965 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 20:51:07.500 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.535s
+2025-11-09 20:51:07.820 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 20:53:13.331 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 20:53:13.331 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 20:53:13.331 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 20:53:13.331 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 20:53:13.331 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 20:53:13.331 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 20:53:13.331 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 20:53:13.331 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 20:53:13.338 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 20:53:13.438 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 20:53:13.901 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.462s
+2025-11-09 20:53:14.311 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 22:13:03.715 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 22:13:03.717 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 22:13:03.717 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 22:13:03.717 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 22:13:03.717 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 22:13:03.717 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 22:13:03.717 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 22:13:03.717 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 22:13:03.717 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 22:13:03.927 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 22:13:04.680 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.753s
+2025-11-09 22:13:04.965 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2025-11-09 22:54:59.579 | INFO     | utils.logging_config:_setup_logging:87 | Logging initialized - Level: DEBUG
+2025-11-09 22:54:59.579 | INFO     | utils.logging_config:_setup_logging:88 | Main log: data_storage\logs\test.log
+2025-11-09 22:54:59.579 | INFO     | utils.logging_config:_setup_logging:89 | Error log: data_storage\logs\errors.log
+2025-11-09 22:54:59.579 | INFO     | utils.logging_config:_setup_logging:90 | Trade log: data_storage\logs\trades.log
+2025-11-09 22:54:59.582 | DEBUG    | __main__:test_logging:100 | Debug message test
+2025-11-09 22:54:59.582 | INFO     | __main__:test_logging:101 | Info message test
+2025-11-09 22:54:59.583 | WARNING  | __main__:test_logging:102 | Warning message test
+2025-11-09 22:54:59.583 | INFO     | utils.logging_config:log_signal:100 | [SIGNAL] TEST | ETHUSDT | Score: 85/100 | {}
+2025-11-09 22:54:59.583 | DEBUG    | utils.logging_config:log_api_call:147 | [API] Binance | /test | SUCCESS | 0.123s
+2025-11-09 22:54:59.680 | INFO     | data.binance_client:__init__:61 | Binance client initialized (TESTNET)
+2025-11-09 22:55:00.261 | DEBUG    | data.binance_client:_request:138 | API call: GET /fapi/v1/ticker/price - 0.568s
+2025-11-09 22:55:00.595 | ERROR    | data.binance_client:_request:143 | HTTP error: 401 - {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
